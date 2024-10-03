@@ -23,3 +23,12 @@ Para começar a explorar este projeto, siga estas etapas:
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 
+2. **Start Datomic**:
+   ```bash
+   bin/transactor config/samples/dev-transactor-template.properties
+
+3. **Start Console Datomic**:
+   ```bash
+   bin/console -p 8080 dev datomic:dev://localhost:4334/
+
+   
